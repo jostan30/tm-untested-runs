@@ -1,0 +1,16 @@
+{
+  "name": "dave-api",
+  "version": "1.0.0",
+  "description": "A small Express app that sits on top of the [BrowserStack Test Management API v2](https://test-management.browserstack.com/api/v2) and answers one question: **which test cases in a project have *not* been executed in a given test run?**",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
